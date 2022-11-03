@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import React from 'react'
+import './App.css'; 
+// import { Layout, Typography, Menu, Avatar, Button } from "antd";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {Footer, Homepage, Navbar} from './components';
+
+// Styled component named StyledButton
+const AppContainer = styled.div` 
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+`;
+const Layout = styled.div` 
+  width: 100%; 
+`;
+
+const App = () => { 
+  return ( 
+      <AppContainer>
+        <div className="box-container">
+          <div className="nav">
+            <Navbar/>
+          </div>
+ 
+            <Layout>
+              <Homepage/>  
+            </Layout> 
+        </div>
+        <Footer/>
+      </AppContainer> 
+  )
 }
 
-export default App;
+export default App
