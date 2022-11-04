@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from 'react'
-import './App.css'; 
+import './App.css';  
 import { Layout } from "antd";
 
 import {Footer, Homepage, Navbar} from './components';

@@ -70,6 +70,7 @@ const Hero = styled.div`
 const Title = styled.h3`   
     color: white;
     font-size: 1.5em;
+    letter-spacing: 2px;
  `;
 const Subtitle = styled.p`   
   color: #cac7c7;
