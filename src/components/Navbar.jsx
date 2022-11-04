@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 const NavContainer = styled.div`  
    margin-top: 1.8em; 
-   width: 100%;  
+   width: 100%;   
 `;
 
 const NavTop = styled.div`  
@@ -14,7 +14,7 @@ const NavTop = styled.div`
   background-color: #1a1515;
 `;
 const BoxIcon = styled.div`  
-   display: flex;
+   display: flex; 
 
    h3{
       font-size: 1em;
